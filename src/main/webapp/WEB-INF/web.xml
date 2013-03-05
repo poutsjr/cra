@@ -6,4 +6,18 @@
 
     <description>Cette première application web sous Tomcat est un exemple permettant de présenter le déploiement d'une webapp. </description>
 
+    <servlet>
+
+        <servlet-name>simpleServlet</servlet-name>
+        <servlet-class>org.poutsjr.cra.servlet.PremiereServlet</servlet-class>
+        <description>La plus simple des servlets.</description>
+
+        <load-on-startup>1</load-on-startup>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>simpleServlet</servlet-name>
+        <url-pattern>/servlet</url-pattern>
+    </servlet-mapping>
 </web-app>
