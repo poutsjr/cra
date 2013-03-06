@@ -1,0 +1,1 @@
+package org.poutsjr.cra.repository;import org.poutsjr.cra.model.Person;/** * Created with IntelliJ IDEA. * User: poutsjr * Date: 06/03/13 * Time: 23:22 * To change this template use File | Settings | File Templates. */public interface PersonDao {    Person find(Long id);}

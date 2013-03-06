@@ -1,0 +1,1 @@
+<resource name="jdbc/db_test123" auth="Container" type="javax.sql.DataSource">    <param name="username" value="poutsjr" />    <param name="password" value="fafou1982" />    <param name="url" value="jdbc:cloudbees://db_test123" /></resource>
